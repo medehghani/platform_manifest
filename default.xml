@@ -487,4 +487,5 @@
   <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="platform_vendor_samsung_mondrianwifi" path="vendor/samsung/mondrianwifi" remote="steeldroid" />
+  <project name="platform_device_samsung_mondrianwifi" path="device/samsung/mondrianwifi" remote="steeldroid" />
 </manifest>
