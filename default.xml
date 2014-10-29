@@ -476,12 +476,13 @@
 
   <!-- Galaxy Tab Pro 8.4 WiFi-->
   <project name="CyanogenMod/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" />
-  <project name="CyanogenMod/android_kernel_samsung_mondrianwifi" path="kernel/samsung/mondrianwifi" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" />
   <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+  <project name="platform_kernel_samsung_mondrianwifi" path="kernel/samsung/mondrianwifi" remote="steeldroid" />
   <project name="platform_vendor_samsung_mondrianwifi" path="vendor/samsung/mondrianwifi" remote="steeldroid" />
   <project name="platform_device_samsung_mondrianwifi" path="device/samsung/mondrianwifi" remote="steeldroid" />
 
