@@ -1,0 +1,22 @@
+Steel Droid
+===========
+
+This branch is for Steel Droid KitKat based ROM
+
+
+Getting Started
+---------------
+To initialize your local repository using my trees, use the following command:
+
+    repo init -u git://github.com/SteelDroid/platform_manifest.git -b cm-11.0
+
+Then to sync up:
+
+    reposync
+
+To build for the Galaxy Tab Pro 8.4 WiFi:
+
+    . build/envsetup.sh && time brunch mondrianwifi
+
+
+This currenly only builds for the Galaxy Tab Pro 8.4 WiFi.  Expanded support will come as time allows.
