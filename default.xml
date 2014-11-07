@@ -18,7 +18,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk">
+  <project path="build" name="platform_build" remote="steeldroid">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -392,7 +392,7 @@
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
   <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="platform_prebuilt" remote="steeldroid" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -452,5 +452,8 @@
   <project name="platform_kernel_samsung_mondrianwifi" path="kernel/samsung/mondrianwifi" remote="steeldroid" />
   <project name="platform_vendor_samsung_mondrianwifi" path="vendor/samsung/mondrianwifi" remote="steeldroid" />
   <project name="platform_device_samsung_mondrianwifi" path="device/samsung/mondrianwifi" remote="steeldroid" />
+
+  <!-- Galaxy Tab Pro 10.1 -->
+  <project name="platform_device_samsung_picassowifi" path="device/samsung/picassowifi" remote="steeldroid" />
 
 </manifest>
