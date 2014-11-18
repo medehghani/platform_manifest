@@ -463,4 +463,8 @@
   <!-- Galaxy Tab Pro 10.1 -->
   <project name="platform_device_samsung_picassowifi" path="device/samsung/picassowifi" remote="steeldroid" />
 
+  <!-- LG G2 Verizon (vs980)-->
+  <project name="platform_vendor_lge_vs980" path="vendor/lge/vs980" remote="steeldroid" />
+  <project name="platform_device_lge_vs980" path="device/lge/vs980" remote="steeldroid" />
+
 </manifest>
