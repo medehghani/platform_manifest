@@ -6,8 +6,7 @@
            revision="refs/heads/cm-11.0" />
 
   <remote  name="twrp"
-           fetch="https://github.com/omnirom/"
-           revision="refs/heads/android-4.4" />
+           fetch="https://github.com/omnirom/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -35,7 +34,7 @@
   <project path="art" name="CyanogenMod/android_art" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="twrp" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="twrp" revision="refs/heads/android-4.4" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
